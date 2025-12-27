@@ -45,12 +45,14 @@ CMD ["catalina.sh", "run"]
 docker build -t Image_name files_location
 ```
 <img width="1027" height="528" alt="image" src="https://github.com/user-attachments/assets/f7ad7c53-50f8-4de1-81ca-77b74aecaeec" />
+
 # Verify DockerImage
 ```
 docker images
 ```
 <img width="947" height="225" alt="image" src="https://github.com/user-attachments/assets/c46f26cb-8c25-4b46-803a-bbec9851621b" />
 ____________________
+
 # Now create a Container and Portnumber
 ```
 docker run -itd --name container_name -p 8081:8080 image_name
